@@ -1,0 +1,31 @@
+// Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Argon Dashboard Variables
+@import "argon-dashboard/custom/variables";
+
+// Argon Design System Variables
+@import "argon-design-system/variables";
+
+// Argon Dashboard Mixins
+@import "argon-dashboard/custom/mixins";
+
+$container-max-widths: (
+  xl: 1250px
+);
+
+// Bootstrap Core
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Argon Dashboard utilities and components
+@import "argon-dashboard/custom/reboot";
+@import "argon-dashboard/custom/utilities";
+@import "argon-dashboard/custom/components";
+
+// Theme Core
+@import "argon-design-system/theme";
+
+// React Differences
+@import "react/react-differences";
+
+

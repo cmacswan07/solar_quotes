@@ -1,0 +1,9 @@
+#navbar-main {
+    z-index: 5 !important;
+    min-height: 88px;
+}
+
+#main-header {
+    z-index: -1 !important;
+    min-height: 50vh;
+}
